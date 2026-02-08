@@ -14,7 +14,8 @@
 - ✅ دعم استخدام أداة (blaptop) لفتح الواجهة.
 - ✅ متوافق مع QBCore Framework.
 ---
-![alt text](image.png)
+<img width="343" height="424" alt="image" src="https://github.com/user-attachments/assets/396cb71e-10d6-432a-8b7b-fcd317e13077" />
+
 ---
 ## 🛠️ التركيب / Installation
 
@@ -24,4 +25,5 @@
 
 ```cfg
 ensure st-managejobs
+
 
