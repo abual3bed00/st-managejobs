@@ -1,4 +1,4 @@
-# stdev | ii_abual3bed discord: https://dscord.gg/7c2gZqD98A
+# stdev | ii_abual3bed discord: https://discord.gg/HCskVYZPtB
 # 💼 Job & Gang Manager - QBCore
 
 سكربت فايف إم مخصص لإدارة الوظائف والعصابات من خلال واجهة NUI متكاملة وصلاحيات مخصصة للمطورين أو الأدمنية.
@@ -25,5 +25,6 @@
 
 ```cfg
 ensure st-managejobs
+
 
 
