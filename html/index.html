@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>إدارة الوظائف والعصابات</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="manager-container">
+    <button id="close-btn" title="إغلاق">&times;</button>
+    <h1><i data-lucide="briefcase"></i> إدارة الوظائف والعصابات</h1>
+
+    <div class="form">
+      <div class="form-group">
+        <label for="player-id"><i data-lucide="user"></i> رقم اللاعب (ID)</label>
+        <input type="number" id="player-id" placeholder="أدخل رقم اللاعب" />
+      </div>
+
+      <div class="form-group">
+        <label for="job-list"><i data-lucide="shield"></i> الوظيفة</label>
+        <select id="job-list">
+          <option value="" disabled selected>اختر وظيفة</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="job-grade-list"><i data-lucide="bar-chart"></i> رتبة الوظيفة</label>
+        <select id="job-grade-list" disabled>
+          <option value="" disabled selected>اختر رتبة</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="gang-list"><i data-lucide="skull"></i> العصابة</label>
+        <select id="gang-list">
+          <option value="" disabled selected>اختر عصابة</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="gang-grade-list"><i data-lucide="bar-chart"></i> رتبة العصابة</label>
+        <select id="gang-grade-list" disabled>
+          <option value="" disabled selected>اختر رتبة</option>
+        </select>
+      </div>
+
+      <div class="actions">
+        <button id="assign-job"><i data-lucide="check"></i> تعيين وظيفة</button>
+        <button id="assign-gang"><i data-lucide="check"></i> تعيين عصابة</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
